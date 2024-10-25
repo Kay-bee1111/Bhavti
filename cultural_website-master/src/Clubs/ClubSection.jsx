@@ -14,14 +14,14 @@ import hello from './hello.png';
 
 const cards = [
   {
-    title: 'REFLECTION',
+    title: 'English Poems',
     description: 'Reflection where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/reflection',
     logo: reflection
   },
   {
-    title: 'SAMWAAD',
+    title: 'Hindi Kavitayein',
     description: 'Samwaad where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/samwaad',
@@ -29,14 +29,14 @@ const cards = [
     
   },
   {
-    title: 'MYSTEVE',
+    title: 'Prose',
     description: 'Mysteve where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/mysteve',
     logo: mysteve
   },
   {
-    title: 'XPRESSIONS',
+    title: 'Shayari',
     description: 'Xpressions where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/xpressions',
@@ -80,7 +80,7 @@ const ClubSection = () => (
   <div id='clubs' >
     <Reverse>
       <h1 className="text-white flex justify-center md:text-5xl lg:text-5xl text-3xl font-bold tracking-widest mb-[0px] md:mb-[50px] mt-[40px]">
-        ARTIFICIUM CLUBS
+        MY WORKS
       </h1>
     </Reverse>
     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-2 md:gap-x-16 gap-y-5 md:gap-y-11 p-11">
